@@ -537,3 +537,11 @@ body {
 .modal-input::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
+
+.modal-input:not(:focus):not(:placeholder-shown):valid {
+  background-color: #c8f5ca;
+}
+
+.modal-input:not(:focus):not(:placeholder-shown):invalid {
+  background-color: #f3cdcd;
+}
