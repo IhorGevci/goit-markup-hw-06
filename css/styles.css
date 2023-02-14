@@ -256,7 +256,7 @@ body {
 .team-soc-list {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .team-soc-item {
