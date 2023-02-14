@@ -567,7 +567,6 @@ body {
 }
 
 .modal-policy {
-  margin-top: 8px;
   margin-bottom: 24px;
 }
 
@@ -634,4 +633,8 @@ body {
   margin: auto;
   width: 169px;
   padding: 16px 32px;
+}
+
+.modal-form-submit:is(:hover, :focus) {
+  background-color: #404bbf;
 }
