@@ -561,41 +561,6 @@ body {
   padding: 8px 16px;
 }
 
-<<<<<<< HEAD
-/* .checkbox-box {
-  margin-bottom: 8px;
-} */
-.check-text {
-  font-weight: 400;
-  font-size: 12px;
-  color: #757575;
-  display: flex;
-  margin-bottom: 24px;
-  margin-top: 8px;
-}
-
-.check-text span {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 16px;
-  height: 16px;
-  margin-right: 8px;
-
-  border: 1.25px solid #2e2f42;
-  border-radius: 2px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  fill: transparent;
-}
-
-.modal-check:checked + .check-text span {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-}
-=======
->>>>>>> parent of 4194870 (політика конф початок)
 .modal-input-text span {
   font-size: 12px;
   color: #8e8f99;
