@@ -577,8 +577,14 @@ body {
   border-radius: 2px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  fill: transparent;
 }
 
+.modal-check:checked + .check-text span {
+  background: #404bbf;
+  border: none;
+  fill: #ffffff;
+}
 .modal-input-text span {
   font-size: 12px;
   color: #8e8f99;
