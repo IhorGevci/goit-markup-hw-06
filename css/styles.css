@@ -566,6 +566,11 @@ body {
   display: flex;
 }
 
+.modal-policy {
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
 .check-text span {
   display: flex;
   align-items: center;
@@ -612,4 +617,21 @@ body {
 
 .modal-input:not(:focus):not(:placeholder-shown):invalid {
   background-color: #f3cdcd;
+}
+
+.modal-form-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: auto;
+  width: 169px;
+  padding: 16px 32px;
 }
